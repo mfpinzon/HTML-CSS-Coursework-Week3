@@ -1,1 +1,107 @@
-/*  Add your styling here */
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Aboreto", cursive;
+    color: #fff;
+  }
+  body {
+    background-color: #ffdfe2 !important;
+  }
+  .navbar {
+    background-color: #dd969c !important;
+  }
+  
+  footer {
+    background-color: #dd969c !important;
+  }
+  
+  footer span {
+    font-size: 10px;
+  }
+  
+  .p-seccion-1 h1,
+  p {
+    color: #8a5626;
+  }
+  
+  .p-seccion-1 h1 {
+    font-size: 20px;
+  }
+  .p-seccion-1 p {
+    font-size: 10px;
+  }
+  .eslogan {
+    display: none;
+  }
+  .cajas {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .tipo-pastel {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  
+  .img-s2 {
+    width: 100% !important;
+    height: 75% !important;
+    border-radius: 50%;
+    border: 5px solid #fff;
+  }
+  
+  @media (min-width: 1024px) {
+    .eslogan {
+      display: block;
+    }
+    .seccion-1 {
+      display: flex;
+      flex-direction: row-reverse !important;
+    }
+    .columnas {
+      display: flex;
+      flex-direction: row !important;
+    }
+    .cajas {
+      height: 100% !important;
+      width: 50% !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .p-seccion-1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .p-seccion-1 h1 {
+      font-size: 40px;
+    }
+  
+    .p-seccion-1 p {
+      font-size: 15px;
+    }
+  
+    .img-seccion-1 {
+      padding: 24px;
+    }
+    .caja-1,
+    .caja-3 {
+      margin-right: 12px;
+    }
+    .caja-2,
+    .caja-4 {
+      margin-left: 12px;
+    }
+    .img-s2 {
+      height: 70% !important;
+    }
+    .tipo-pastel {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+  }
